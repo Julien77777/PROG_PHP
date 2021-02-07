@@ -20,14 +20,7 @@
 		}
 	}
 
-	if (!empty($_POST['age'])) { // Champ de l'Age
-		if(!ctype_digit($_POST['age'])){
-			echo "Erreur d'Age" . "<br>";
-		}
-
-		else {
-			echo "Age conforme" . "<br>";
-		}
+	
 	}
 		
 
